@@ -1,0 +1,15 @@
+header{
+    font-family: sans-serif;
+    font-size: 36px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+}
+
+body{
+    background-image: url(https://img.onl/xg69dI);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
