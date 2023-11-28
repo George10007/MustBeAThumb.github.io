@@ -1,10 +1,23 @@
 header{
     font-family: sans-serif;
     font-size: 36px;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 .navbar-brand {
     font-size: 36px;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin-right: 5px;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: grey;
 }
 
 #carouselExampleIndicators{
