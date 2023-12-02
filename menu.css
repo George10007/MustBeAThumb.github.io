@@ -5,17 +5,11 @@
     margin-right: 10px;
 }
 
-.navbar-brand {
-    font-size: 36px;
-}
-
-.nav-link {
+#home, #menu, #activity {
     font-size: 20px;
-    margin-right: 5px;
-    color: black;
 }
 
-.nav-link:hover {
+#home:hover, #menu:hover, #activity:hover {
     text-decoration: underline;
     color: grey;
 }
