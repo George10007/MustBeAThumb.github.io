@@ -126,6 +126,7 @@ h4 {
     .flex1 {
         display: block;
         margin: 0;
+        overflow: hidden;
     }
 
     .flex1 li {
