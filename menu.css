@@ -50,8 +50,8 @@ body{
     border-radius: 20px;
 }
 
-h4 {
-    font-size: 20px;
+.space {
+    font-size: 24px;
     margin-top: 50px;
     margin-bottom: 50px;
     color: black;
@@ -88,7 +88,7 @@ h4 {
 
     .flex1 li {
         display: inline-block;
-        margin: 0 80px;
+        margin: 0 70px;
     }
 
     .food-picture {
@@ -107,7 +107,7 @@ h4 {
 
     .flex2 li {
         display: inline-block;
-        margin: 0 80px;
+        margin: 0 70px;
     }
 
     .serving-option {
@@ -122,6 +122,10 @@ h4 {
         font-size: 12px;
     }
 
+    .serving-option{
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width : 1100px){
@@ -133,7 +137,7 @@ h4 {
 
     .flex1 li {
         display: inline-block;
-        margin: 0 90px;
+        margin: 0 80px;
     }
 
     .food-picture {
@@ -152,7 +156,7 @@ h4 {
 
     .flex2 li {
         display: inline-block;
-        margin: 0 90px;
+        margin: 0 80px;
     }
 
     .serving-option {
@@ -164,6 +168,10 @@ h4 {
     }
 
     .space {
+        font-size: 16px;
+    }
+
+    .serving-option{
         font-size: 16px;
     }
 
