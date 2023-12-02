@@ -65,17 +65,23 @@ body{
     margin-top: 5px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
 #serving-collocation {
     font-weight: bold;
 }
 
 .serving-option:not(#serving-collocation) {
-    font-size: 20px !important;
     font-style: italic;
 }
 
 #birth {
-    font-size: 20px;
     color: rgb(175, 32, 41);
 }
 
@@ -94,7 +100,7 @@ body{
     .food-picture {
         display: block;
         margin: auto;
-        max-height: 180px;
+        max-height: 160px;
         border: 2px groove #79caa6;
         border-radius: 15px;
     }
@@ -122,8 +128,8 @@ body{
         font-size: 12px;
     }
 
-    .serving-option{
-        font-size: 12px;
+    h3, option {
+        font-size: 12px !important;
     }
 
 }
@@ -143,7 +149,7 @@ body{
     .food-picture {
         display: block;
         margin: auto;
-        max-height: 220px;
+        max-height: 200px;
         border: 2px groove #79caa6;
         border-radius: 15px;
     }
@@ -171,8 +177,7 @@ body{
         font-size: 16px;
     }
 
-    .serving-option{
-        font-size: 16px;
+    h3, p{
+        font-size: 16px !important;
     }
-
 }
