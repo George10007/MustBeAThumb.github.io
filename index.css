@@ -57,22 +57,63 @@ body{
 
 @media screen and (max-width : 768px){
     .intro, .box {
-        display: flex;
+        margin-top: 15px;
+        display: block;
     }
 
-    .box > h5 {
+    .box  h5 {
         width: 50%;
+        text-align: left;
         height: auto; 
         font-size: 20px;
         font-weight: bold;
         text-shadow: 2px 1px 2px grey;
+        margin-left: 0;
+        margin-bottom: 5px; 
+        padding-bottom: 5px;
     }
     
     .box h6 {
-        width: 50%;
+        width: 100%;
         height: auto;
         font-size: 16px;
         font-style: italic;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
+}
+
+@media screen and (max-width : 1100px){
+    .intro, .box {
+        margin-top: 15px;
+        display: block;
+    }
+
+    .box  h5 {
+        width: 50%;
+        text-align: left;
+        height: auto; 
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 1px 2px grey;
+        margin-left: 0;
+        margin-bottom: 5px; 
+        padding-bottom: 5px;
+    }
+    
+    .box h6 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        font-style: italic;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }

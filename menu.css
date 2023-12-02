@@ -78,3 +78,35 @@ h4 {
     font-size: 20px;
     color: rgb(175, 32, 41);
 }
+
+@media screen and (max-width : 768px){
+    .flex1 {
+        display: block;
+        margin: auto;
+    }
+
+    .flex1 li {
+        display: inline-block;
+        margin: 0 100px;
+    }
+
+    .food-picture {
+        display: block;
+        margin: auto;
+    }
+
+    .flex2 {
+        display: block;
+        margin: auto;
+    }
+
+    .flex2 li {
+        display: inline-block;
+        margin: 0 100px;
+    }
+
+    .serving-option {
+        text-align: center;
+    }
+
+}
