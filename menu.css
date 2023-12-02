@@ -83,6 +83,7 @@ h4 {
     .flex1 {
         display: block;
         margin: 0;
+        overflow: hidden;
     }
 
     .flex1 li {
@@ -101,11 +102,12 @@ h4 {
     .flex2 {
         display: block;
         margin: 0;
+        overflow: hidden;
     }
 
     .flex2 li {
         display: inline-block;
-        margin: 0 100px;
+        margin: 0 80px;
     }
 
     .serving-option {
@@ -145,11 +147,12 @@ h4 {
     .flex2 {
         display: block;
         margin: 0;
+        overflow: hidden;
     }
 
     .flex2 li {
         display: inline-block;
-        margin: 0 100px;
+        margin: 0 80px;
     }
 
     .serving-option {
