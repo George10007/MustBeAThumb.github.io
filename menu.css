@@ -47,7 +47,7 @@ body{
 .food-picture {
     max-height: 300px;
     border: 3px groove #79caa6;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 h4 {
@@ -82,7 +82,50 @@ h4 {
 @media screen and (max-width : 768px){
     .flex1 {
         display: block;
+        margin: 0;
+    }
+
+    .flex1 li {
+        display: inline-block;
+        margin: 0 100px;
+    }
+
+    .food-picture {
+        display: block;
         margin: auto;
+        max-height: 180px;
+        border: 2px groove #79caa6;
+        border-radius: 15px;
+    }
+
+    .flex2 {
+        display: block;
+        margin: 0;
+    }
+
+    .flex2 li {
+        display: inline-block;
+        margin: 0 100px;
+    }
+
+    .serving-option {
+        text-align: center;
+    }
+
+    .food-type {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width : 1100px){
+    .flex1 {
+        display: block;
+        margin: 0;
     }
 
     .flex1 li {
@@ -94,11 +137,13 @@ h4 {
         display: block;
         margin: auto;
         max-height: 220px;
+        border: 2px groove #79caa6;
+        border-radius: 15px;
     }
 
     .flex2 {
         display: block;
-        margin: auto;
+        margin: 0;
     }
 
     .flex2 li {
