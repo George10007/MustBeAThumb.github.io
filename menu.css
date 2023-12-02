@@ -93,6 +93,7 @@ h4 {
     .food-picture {
         display: block;
         margin: auto;
+        max-height: 220px;
     }
 
     .flex2 {
@@ -107,6 +108,14 @@ h4 {
 
     .serving-option {
         text-align: center;
+    }
+
+    .food-type {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 16px;
     }
 
 }
