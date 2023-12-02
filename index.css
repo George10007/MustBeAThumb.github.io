@@ -1,4 +1,4 @@
-header{
+#title {
     font-family: sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -28,31 +28,52 @@ body{
 }
 
 .box > h5 {
-    width: 500px;
+    width: 250px;
     height: 100px; 
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-bottom: 25px;
     padding-left: 50px;
     text-shadow: 2px 1px 2px grey;
 }
 
 .box h6 {
-    width: 800px;
-    height: 150px;
-    font-size: 22px;
-    margin-top: 10px;
+    width: 700px;
+    height: 100px;
+    font-size: 18px;
     margin-bottom: 15px;
     margin-right: 250px;
     padding-bottom: 50px;
     font-style: italic;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 
 .box {
     margin-top: 40px;
     display: flex;
+}
+
+@media screen and (max-width : 768px){
+    .intro, .box {
+        display: flex;
+    }
+
+    .box > h5 {
+        width: 50%;
+        height: auto; 
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 2px 1px 2px grey;
+    }
+    
+    .box h6 {
+        width: 50%;
+        height: auto;
+        font-size: 16px;
+        font-style: italic;
+    }
+
 }

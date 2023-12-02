@@ -1,4 +1,4 @@
-header{
+#title {
     font-family: sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -30,73 +30,45 @@ body{
 .food-type {
     font-size: 42px;
     color: rgb(191, 144, 26);
-    margin-left: 225px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px; 
     font-weight: bold;
-}
-
-.food-type2 {
-    font-size: 42px;
-    color: rgb(191, 144, 26);
-    margin-left: 875px;
-    margin-top: 50px;
-    font-weight: bold;
+    text-align: center;
+    
 }
 
 .flex1 {
-    margin-left: 100px;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .flex2 {
-    margin-left: 50px;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row-reverse;
 }
 
 .food-picture {
-    height: 350px;
-    border: 5px groove #79caa6;
+    max-height: 300px;
+    border: 3px groove #79caa6;
     border-radius: 25px;
 }
 
 h4 {
-    font-size: 28px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: black;
 }
 
-.price {
-    margin-left: 100px;
-    font-weight: bold;
-}
-
-.price2 {
-    margin-left: 44px;
-    font-weight: bold;
-}
-
-.price3 {
-    margin-left: 70px;
-    font-weight: bold;
-}
-
-.price4 {
-    margin-left: 72px;
-    font-weight: bold;
-}
-
-.price5 {
-    margin-left: 125px;
-    font-weight: bold;
-}
-
-.price6 {
-    margin-left: 57px;
-    font-weight: bold;
+.space {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 5px;
 }
 
 #serving-collocation {
@@ -104,7 +76,6 @@ h4 {
 }
 
 .serving-option:not(#serving-collocation) {
-    margin-left: 250px;
     font-size: 20px !important;
     font-style: italic;
 }
